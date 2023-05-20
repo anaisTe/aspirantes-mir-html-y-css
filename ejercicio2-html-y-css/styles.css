@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+}
+
+.login_container {
+    border-radius: 20px;
+    font-family: sans-serif;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #bd09b7 0%, #6b4cf5 100%);
+    box-shadow: 4px 4px 18px 4px;
+    color: #fff;
+}
+
+form {
+    padding: 0 7px;
+}
+
+.login_input {
+    margin-bottom: 15px;
+}
+
+.login_input input, select {
+    padding: 7px 0;
+    width: 100%;
+}
+
+.login_btn {
+    text-align: right;
+}
+
+button {
+    padding: 5px 15px;
+}
+
+
+@media (max-width: 500px) {
+    .login_container {
+        width: 100%;
+        margin: 0;
+        padding: 20px 10px;
+    }
+}
